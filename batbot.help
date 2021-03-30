@@ -1,0 +1,20 @@
+<b>handsfreeBot commands:</b>
+<code>
+/myid....... will show your user-id
+/myuser..... will tell you your username
+/uptime..... will show the uptime of the server
+/help....... shows this help message
+/memories... show photo memories from this day in historie
+/dp_nasa_mn. show daily pics of NASA Main Gallery
+/dp_nasa_eo. same, but from the NASA Earth Observatory
+/dp_nasa_pj. same, but from the NASA Photo Journal of JPL
+/commands... will list the activated commands
+</code>
+Use /commands for the active list. 
+
+The command <b>/memories</b> will do the following:
+1. Query the local PHOTO database for pictures from this day and month in previous years
+2. The resulting list, which might be huge or not, is used to generate thumbnails for a random selection of 1-4 pictures. That might take some time.
+3. After thumbnail creation the images are uploaded to Telegram and sent to the requesting user.
+
+With the commands <b>/dp_</b>* the corresponding RSS feed is downloaded, after which a random selection is made from the available images and sent to the requesting user.
