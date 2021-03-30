@@ -90,6 +90,7 @@ When running the script will create two files in the folder ./response with the 
 command | used
 -------- | --------
 cat | to display file contents
+dirname | get start folder
 ps | process list
 grep | content selection
 gawk | string manipulation
